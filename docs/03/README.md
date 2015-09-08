@@ -107,7 +107,7 @@ HerokuのDashboard上でアドオンを追加します。
 
 > :gift_heart: herokuにはWebサービス構築に必要な機能(ログ、監視、キャッシュ、DB、Email/SMS/Push、など)を__アドオン__と呼ばれるもので組み込める仕組みがあります。  
 [Add-ons - Heroku Elements](https://elements.heroku.com/addons)  
-`heroku addons:add <add-on名>`でコマンドラインからも追加が可能ですが、プランなどを確認できるためダッシュボード上のGUIで追加する方をオススメします。
+`heroku addons:create <add-on名>`でコマンドラインからも追加が可能ですが、プランなどを確認できるためダッシュボード上のGUIで追加する方をオススメします。
 
 > :gift_heart: アプリケーションに追加されているアドオンは`heroku addons`コマンドで確認することができます。
 
