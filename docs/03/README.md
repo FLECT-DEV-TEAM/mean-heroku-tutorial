@@ -30,8 +30,8 @@ heroku --version
 
 heroku login
 > Enter your Heroku credentials.
-> Email: 
-> Password (typing will be hidden): 
+> Email:
+> Password (typing will be hidden):
 > Authentication successful.
 
 # ログインしているアカウントを確認
@@ -47,14 +47,14 @@ heroku auth:whoami
 
 ```
 yo angular-fullstack:heroku
-> ? Name to deploy as (Leave blank for a random name): 
+> ? Name to deploy as (Leave blank for a random name):
 > ? On which region do you want to deploy ? US
 
 > Initializing deployment repo
 > Initialized empty Git repository in /Users/mitsuruog/workspace/work/mean-heroku-sample2/dist/.git/
 
 > Creating heroku app and setting node environment
-> Creating ... 
+> Creating ...
 > done, stack is cedar-14
 
 ...(省略)
@@ -92,7 +92,7 @@ HerokuのDashboard上でアプリケーションが作成されていること�
 
 ## 4. アドオンの追加
 
-:warning: アドインの利用の際にクレジット登録が必要になるかもしれません。。。
+:warning: アドオンの利用の際にクレジット登録が必要になるかもしれません。。。
 
 HerokuのDashboard上でアドオンを追加します。  
 アドオンの追加はアプリケーション上の`Resources`タブから追加します。
@@ -107,7 +107,7 @@ HerokuのDashboard上でアドオンを追加します。
 
 > :gift_heart: herokuにはWebサービス構築に必要な機能(ログ、監視、キャッシュ、DB、Email/SMS/Push、など)を__アドオン__と呼ばれるもので組み込める仕組みがあります。  
 [Add-ons - Heroku Elements](https://elements.heroku.com/addons)  
-`heroku addons:add <add-on名>`でコマンドラインからも追加が可能ですが、プランなどを確認できるためダッシュボード上のGUIで追加する方をオススメします。
+`heroku addons:create <add-on名>`でコマンドラインからも追加が可能ですが、プランなどを確認できるためダッシュボード上のGUIで追加する方をオススメします。
 
 > :gift_heart: アプリケーションに追加されているアドオンは`heroku addons`コマンドで確認することができます。
 
@@ -154,13 +154,13 @@ grunt buildcontrol:heroku
 >  create mode 100644 public/app/787459fa.app.js
 >  delete mode 100644 public/app/eee0da82.app.js
 
-> Pushing master to heroku 
-> remote: Compressing source files... done. 
+> Pushing master to heroku
+> remote: Compressing source files... done.
 
 ...(省略)
 
-> remote: 
-> remote: Verifying deploy.... done.        
+> remote:
+> remote: Verifying deploy.... done.
 > To https://git.heroku.com/mitsuruog-mean-sample.git
 >    30dbef4..d43d4fc  master -> master
 
