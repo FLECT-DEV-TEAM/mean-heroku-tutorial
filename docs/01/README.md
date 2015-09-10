@@ -42,7 +42,7 @@ npm install -g generator-angular-fullstack
 本リポジトリをクローンします。
 
 ```
-git clone // TODO
+git clone https://github.com/FLECT-DEV-TEAM/mean-heroku-tutorial.git
 cd mean-heroku-tutorial
 ```
 
